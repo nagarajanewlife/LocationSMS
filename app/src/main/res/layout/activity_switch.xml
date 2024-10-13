@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/match_parent_style"
+    android:fillViewport="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/rl_main"
+        style="@style/match_parent_style"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/ll_form"
+            style="@style/match_wrap_style"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/devices_BTN"
+                    style="@style/wrap_content_style"
+                    android:layout_gravity="center"
+                    android:layout_margin="7dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorWhite"
+                    android:padding="13dp"
+                    android:singleLine="true"
+                    android:text="Devices"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="23sp"
+                    android:textStyle="normal" />
+
+                <Button
+                    android:id="@+id/btn_config"
+                    style="@style/wrap_content_style"
+                    android:layout_gravity="center"
+                    android:layout_margin="7dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorWhite"
+                    android:padding="13dp"
+                    android:singleLine="true"
+                    android:text="Config"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="23sp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/statusText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:gravity="center_horizontal"
+                android:text="Status: Not Connected"
+                android:textSize="18.0sp" />
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/fragment_container"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/ll_form"
+            android:layout_centerInParent="true"></FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                A
+
+                <Button
+                    android:id="@+id/btn_1"
+                    style="@style/wrap_content_style"
+                    android:layout_gravity="center"
+                    android:layout_margin="7dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorWhite"
+                    android:padding="13dp"
+                    android:singleLine="true"
+                    android:text="1"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="23sp"
+                    android:textStyle="normal" />
+
+                <Button
+                    android:id="@+id/btn_2"
+                    style="@style/wrap_content_style"
+                    android:layout_gravity="center"
+                    android:layout_margin="7dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorWhite"
+                    android:padding="13dp"
+                    android:singleLine="true"
+                    android:text="2"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="23sp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_3"
+                    style="@style/wrap_content_style"
+                    android:layout_gravity="center"
+                    android:layout_margin="7dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorWhite"
+                    android:padding="13dp"
+                    android:singleLine="true"
+                    android:text="3"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="23sp"
+                    android:textStyle="normal" />
+
+                <Button
+                    android:id="@+id/btn_4"
+                    style="@style/wrap_content_style"
+                    android:layout_gravity="center"
+                    android:layout_margin="7dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorWhite"
+                    android:padding="13dp"
+                    android:singleLine="true"
+                    android:text="4"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="23sp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_5"
+                    style="@style/wrap_content_style"
+                    android:layout_gravity="center"
+                    android:layout_margin="7dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorWhite"
+                    android:padding="13dp"
+                    android:singleLine="true"
+                    android:text="5"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="23sp"
+                    android:textStyle="normal" />
+
+                <Button
+                    android:id="@+id/btn_6"
+                    style="@style/wrap_content_style"
+                    android:layout_gravity="center"
+                    android:layout_margin="7dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorWhite"
+                    android:padding="13dp"
+                    android:singleLine="true"
+                    android:text="6"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="23sp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_7"
+                    style="@style/wrap_content_style"
+                    android:layout_gravity="center"
+                    android:layout_margin="7dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorWhite"
+                    android:padding="13dp"
+                    android:singleLine="true"
+                    android:text="7"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="23sp"
+                    android:textStyle="normal" />
+
+                <Button
+                    android:id="@+id/btn_8"
+                    style="@style/wrap_content_style"
+                    android:layout_gravity="center"
+                    android:layout_margin="7dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorWhite"
+                    android:padding="13dp"
+                    android:singleLine="true"
+                    android:text="8"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="23sp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

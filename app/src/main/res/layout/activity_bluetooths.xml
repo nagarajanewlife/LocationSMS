@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/match_parent_style"
+    android:fillViewport="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/rl_main"
+        style="@style/match_parent_style"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/ll_form"
+            style="@style/match_wrap_style"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/devices_BTN"
+                    style="@style/wrap_content_style"
+                    android:layout_gravity="center"
+                    android:layout_margin="7dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorWhite"
+                    android:padding="13dp"
+                    android:singleLine="true"
+                    android:text="Devices"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="23sp"
+                    android:textStyle="normal" />
+
+                <Button
+                    android:id="@+id/add_BTN"
+                    style="@style/wrap_content_style"
+                    android:layout_gravity="center"
+                    android:layout_margin="7dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorWhite"
+                    android:padding="13dp"
+                    android:singleLine="true"
+                    android:text="Add Num"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="23sp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/statusText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:gravity="center_horizontal"
+                android:text="Status: Not Connected"
+                android:textSize="18.0sp" />
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/fragment_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/ll_form"
+            android:layout_centerInParent="true"></FrameLayout>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/match_parent_style"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        style="@style/match_wrap_style"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            style="@style/match_wrap_style"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/sms_btn"
+                style="@style/match_parent_style"
+                android:layout_margin="7dp"
+                android:layout_weight="1"
+                android:background="@color/colorWhite"
+                android:padding="13dp"
+                android:singleLine="true"
+                android:text="SMS"
+                android:textAllCaps="false"
+                android:textColor="@color/colorAccent"
+                android:textSize="23sp"
+                android:textStyle="normal" />
+
+            <Button
+                android:id="@+id/iot_btn"
+                style="@style/match_parent_style"
+                android:layout_margin="7dp"
+                android:layout_weight="1"
+                android:background="@color/colorWhite"
+                android:padding="13dp"
+                android:singleLine="true"
+                android:text="IOT"
+                android:textAllCaps="false"
+                android:textColor="@color/colorAccent"
+                android:textSize="23sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/match_wrap_style"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/switch_btn"
+                style="@style/match_parent_style"
+                android:layout_margin="7dp"
+                android:layout_weight="1"
+                android:background="@color/colorWhite"
+                android:padding="13dp"
+                android:singleLine="true"
+                android:text="Switch"
+                android:textAllCaps="false"
+                android:textColor="@color/colorAccent"
+                android:textSize="23sp"
+                android:textStyle="normal" />
+
+            <Button
+                android:id="@+id/sms_location_btn"
+                style="@style/match_parent_style"
+                android:layout_margin="7dp"
+                android:layout_weight="1"
+                android:background="@color/colorWhite"
+                android:padding="13dp"
+                android:singleLine="true"
+                android:text="Location"
+                android:textAllCaps="false"
+                android:textColor="@color/colorAccent"
+                android:textSize="23sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
